@@ -40,4 +40,4 @@ First, we must consider platform-specific behavior:
 Second, we must ensure that we do not load the library in an unsafe way that pollutes the global symbol table.
 For this, we must use the `RTLD_LOCAL` flag when loading (this has no effect on Windows, but is relevant for Linux and OS X).
 
-An extended discussion on the technical details is [here](doc/main.md).
+An extended discussion on the technical details is [here](https://native-lib-loader.readthedocs.io/en/latest/).
